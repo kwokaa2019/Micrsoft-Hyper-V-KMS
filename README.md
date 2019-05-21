@@ -1,5 +1,8 @@
 作業系統
-Windows Server 2019
+
+Windows Server 2019 Standard
+
+Windows Server 2019 Datacenter
 
 Windows 10 Professional 
 
