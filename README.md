@@ -40,6 +40,6 @@ cd C:\program files (x86)\Microsoft Office\office16 （office 2019 x86 默认位
 
 再手動打cscript ospp.vbs /sethst:kms.xx.com            指定KMS的地址
 
-最后，手動打:cscript ospp.vbs /act, 稍等片刻，即提示激活成功。
+最后，手動打cscript ospp.vbs /act 稍等片刻，即提示激活成功。
 
 -------------------------------------------------------------------------------------------------------------------------------------------------
