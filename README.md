@@ -34,9 +34,9 @@ Micrsoft Office 2019 具體步驟：
 
 假設係 Microsoft Office 2019 專業增強版，手動打
 
-cd C:\Program Files\Microsoft Office\Office16       （office 2019 x64位默认位置）
+cd C:\Program Files\Microsoft Office\Office16       （office 2019 x64 默认位置）
 
-cd C:\program files (x86)\Microsoft Office\office16 （office 2019 x86位默认位置）
+cd C:\program files (x86)\Microsoft Office\office16 （office 2019 x86 默认位置）
 
 手動打:cscript ospp.vbs /sethst:kms.xx.com            指定KMS的地址
 
