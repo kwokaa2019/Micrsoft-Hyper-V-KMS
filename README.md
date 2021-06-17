@@ -13,7 +13,7 @@ Micrsoft Windows 內建的 Hyper-V(Virtual Machine) 虛擬機器軟體
 
 slmgr.vbs /upk (用於卸載當前電腦的密鑰)
 
-slmgr /ipk X2XXN-XFXXX-YXXXB-XJXCX-TX3XX (安裝Windows產品的密鑰)
+slmgr /ipk XXXXN-XFXXX-YXXXX-XJXXX-XX3XX (安裝Windows產品的密鑰)
 
 slmgr /skms Kms.xxxxx.xx (設置kms伺服器地址)
 
