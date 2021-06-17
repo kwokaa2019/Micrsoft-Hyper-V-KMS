@@ -24,8 +24,33 @@ slmgr.vbs -xpr  (這條命令 查看何時過期?)
 slmgr.vbs -dlv  (條命令 查看詳細激活信)
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+Office 激活相關命令：
+
+slmgr /ipk 安裝秘鑰
+
+slmgr /ato 聯網激活
+
+slmgr /dti 導出安裝ID
+
+slmgr /atp 導入激活ID（確認ID）
+
+slmgr /upk 卸載秘鑰
+
+slmgr /ckms 清楚KMS伺服器
+
+slmgr /skms 設置KMS伺服器
+
+slmgr /rearm 重置激活狀態
+
+slmgr /xpr 顯示系統激活時間
+
+slmgr /dlv 顯示激活詳細信息
+
+slmgr /ilc 導入證書
+
 
 Micrsoft Office 2019 具體步驟：
+
 打開任何一個Office軟件，例如打開Word，點擊“賬戶”⇢“更改產品密鑰”， 輸入XXXXX-XXXXX-XXXXX-XXXXX-XXXXX (產品的密鑰)，即可關閉Word。
 
 首先要在電腦Windows作業系統中打開命令提示符視窗，從工作列中的搜尋框打cmd ，然後按滑鼠右鍵選"以系統管理員身份執行" 就可以很簡單的打開命令提示字元視窗
