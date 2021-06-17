@@ -26,28 +26,25 @@ slmgr.vbs -dlv  (條命令 查看詳細激活信)
 ------------------------------------------------------------------------------------------------------------------------------------------
 Office 激活相關命令：
 
-slmgr /ipk 安裝秘鑰
+cscript ospp.vbs /act 聯網激活
 
-slmgr /ato 聯網激活
+cscript ospp.vbs /inpkey: 安裝秘鑰
 
-slmgr /dti 導出安裝ID
+cscript ospp.vbs /unpkey: 卸載秘鑰
 
-slmgr /atp 導入激活ID（確認ID）
+cscript ospp.vbs /inslic: 導入證書
 
-slmgr /upk 卸載秘鑰
+cscript ospp.vbs /dstatus 顯示詳細激活信息
 
-slmgr /ckms 清楚KMS伺服器
+cscript ospp.vbs /dinstid 導出安裝ID
 
-slmgr /skms 設置KMS伺服器
+cscript ospp.vbs /actcid: 導入激活ID（確認ID）
 
-slmgr /rearm 重置激活狀態
+cscript ospp.vbs /rearm   重設所有已安裝 Office 產品金鑰的授權狀態
 
-slmgr /xpr 顯示系統激活時間
+cscript ospp.vbs /remhst  移除 KMS 主機名稱
 
-slmgr /dlv 顯示激活詳細信息
-
-slmgr /ilc 導入證書
-
+cscript ospp.vbs /sethst: 設置KMS伺服器
 
 Micrsoft Office 2019 具體步驟：
 
